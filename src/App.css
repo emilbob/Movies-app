@@ -1,0 +1,28 @@
+.App {
+  min-height: 100vh;
+  background-image: linear-gradient(to top, #eef8ff 0%, #cad3d6 100%);
+}
+
+.search-form {
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 50%;
+  border: none;
+  padding: 10px;
+}
+
+.search-button {
+  background: rgb(67, 154, 253);
+  padding: 10px 10 px;
+  color: white;
+}
+.movies {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}

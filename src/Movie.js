@@ -3,12 +3,12 @@ import style from "./movie.module.css";
 
 const Movie = ({ Title, Type, Year, imdbID, Poster }) => {
   return (
-    <div className={style.Movie}>
+    <div className={style.movie}>
       <h2>{Title}</h2>
       <img className={style.image} src={Poster} alt="" />
-      <h3>{Year}</h3>
-      <h3>{Type}</h3>
-      <h3>{imdbID}</h3>
+      <h3>year: {Year}</h3>
+      <h3>type: {Type}</h3>
+      <h3>imdb id: {imdbID}</h3>
     </div>
   );
 };

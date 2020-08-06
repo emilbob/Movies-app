@@ -34,7 +34,12 @@ const App = () => {
   return (
     <div className="App">
       <form className="search-form" onSubmit={getSearch}>
-        <input className="search-bar" value={search} onChange={updateSearch} />
+        <input
+          className="search-bar"
+          placeholder="search"
+          value={search}
+          onChange={updateSearch}
+        />
         <button className="search-button" type="submit">
           Search
         </button>
@@ -46,7 +51,6 @@ const App = () => {
             key={movie.Title}
             Title={movie.Title}
             Type={movie.Type}
-            Year={movie.Year}
             imdbID={movie.imdbID}
             Poster={movie.Poster}
           />
